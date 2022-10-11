@@ -49,6 +49,7 @@ https://tutorials.datajoint.org/setting-up/get-database.html
 https://tutorials.datajoint.org/setting-up/local-database.html
 https://datajointneuro.io/
 ```
+You can now either generate the simulations used to train TSNPE yourself, or you download the database of simulated data that we used [link will be made available soon].
 
 ### Citation
 ```
