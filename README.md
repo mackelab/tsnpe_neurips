@@ -20,7 +20,7 @@ cd l5pc; pip install -e .; cd ..
 cd paper; pip install -e .; cd ..
 ```
 
-Finally, you have to install the [`pyloric` repo](https://github.com/mackelab/pyloric):
+Finally, you have to install the [`pyloric` repo](https://github.com/mackelab/pyloric). Note: original results were generated with commit hash `1768cc4365d2ca24196562a4cf41a2b28cc6e647`.
 ```
 git clone git@github.com:mackelab/pyloric.git
 cd pyloric
