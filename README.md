@@ -20,6 +20,13 @@ cd l5pc; pip install -e .; cd ..
 cd paper; pip install -e .; cd ..
 ```
 
+Finally, we have to install the `pyloric` repo:
+```
+git clone git@github.com:mackelab/pyloric.git
+cd pyloric
+pip install -e .
+```
+
 ### Citation
 ```
 @article{deistler2022truncated,
