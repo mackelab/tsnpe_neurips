@@ -1,17 +1,12 @@
 from os.path import join
 import os
 
-import ruamel.yaml as yaml
-from typing import List
 import torch
 from torch import Tensor, as_tensor, float32
 import dill
 import pickle
-import pandas as pd
 
 from l5pc.model import Priorl5pc
-from l5pc.model import L5PC_20D_x
-from l5pc.model.utils import return_xo
 from sbi.utils.posterior_ensemble import NeuralPosteriorEnsemble
 
 
@@ -34,7 +29,8 @@ def extract_bounds(prior) -> Tensor:
 
 
 def load_posterior(id: str, path: str):
-    base_path = "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/"
+    # base_path = "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/"
+    base_path = os.path.dirname(os.path.realpath(__file__)) + "/../../"
     inference_path = join(base_path, f"results/{id}/inference/{path}")
     with open(join(inference_path, "inference.pkl"), "rb") as handle:
         inferences = dill.load(handle)

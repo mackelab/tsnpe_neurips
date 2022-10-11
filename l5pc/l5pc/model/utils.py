@@ -116,13 +116,13 @@ def return_gt(as_pd: bool = True):
 
 
 def return_xo(summstats: bool = True, as_pd: bool = True):
-    model_path = "/mnt/qb/macke/mdeistler57/multicompartment/multicompartment/models"
+    model_path = os.path.dirname(os.path.realpath(__file__))
     if summstats:
-        xo = pd.read_pickle(os.path.join(model_path, "l5pc/xo.pkl"))
+        xo = pd.read_pickle(os.path.join(model_path, "xo.pkl"))
         if not as_pd:
             xo = xo.to_numpy()
     else:
-        xo = pd.read_pickle(os.path.join(model_path, "l5pc/xo_trace.pkl"))
+        xo = pd.read_pickle(os.path.join(model_path, "xo_trace.pkl"))
     return xo
 
 

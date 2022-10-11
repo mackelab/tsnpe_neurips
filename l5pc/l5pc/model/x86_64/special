@@ -1,4 +1,4 @@
-#!/home/macke/mdeistler57/.conda/envs/tsnpe/bin/python
+#!/home/michael/anaconda3/envs/tsnpe_neurips/bin/python
 """
 A generic wrapper to access nrn binaries from a python installation
 Please create a softlink with the binary name to be called.

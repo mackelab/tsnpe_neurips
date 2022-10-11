@@ -1,6 +1,6 @@
 import pickle
-from multicompartment.models import setup_l5pc, simulate_l5pc, summstats_l5pc
-from multicompartment.models.l5pc.utils import return_gt
+from l5pc.model import setup_l5pc, simulate_l5pc, summstats_l5pc
+from l5pc.model.utils import return_gt
 
 gt = return_gt()
 setup_l5pc(load_libraries=False)
