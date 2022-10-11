@@ -23,3 +23,4 @@ cd paper; pip install -e .; cd ..
 }
 
 ### Contact
+If you have questions, please reach out to `michael.deistler@uni-tuebingen.de`.
