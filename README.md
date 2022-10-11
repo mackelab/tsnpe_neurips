@@ -12,7 +12,6 @@ This repo contains four main folders. Each folder contains an individual `README
 This repository contains code that can be run to generate all results. In addition, it contains some files that are loaded in the notebooks in order to generate the figures (these files are also generated along the way when running the code). However, in order to maintain a reasonable file size of this repo, many intermediate results (which are not shown in the paper, e.g. trained neural networks after every round) are not stored in this repository. In addition, this repository does not include the full git history of the project. In order to recover these things, we point the reader to the [development repository of this project](https://github.com/tsnpe).
 
 ### Installation
-
 First, create the conda environment and activate it:
 ```
 conda env create --file environment_vm.yml
@@ -36,14 +35,14 @@ pip install -e .
 ```
 
 ### Installation of L5PC simulator
-Finally, you have to set up the simulator for the layer 5 pyramidal cell (Fig. 6). This simulator is written in [`Neuron`](https://www.neuron.yale.edu/neuron/). In order to compile the model, you have to:
+Finally, in order to reproduce the results shown in Fig. 6, you have to set up the simulator for the layer 5 pyramidal cell (L5PC, Fig. 6). This simulator is written in [`Neuron`](https://www.neuron.yale.edu/neuron/). In order to compile the model, you have to:
 ```
 cd l5pc/l5pc/model/x86_64
 rm *.o; rm *.c; cd ..
 nrnivmodl mechanisms
 ```
 
-We save every parameter set and the corresponding simulation result of the L5PC in a [datajoint](https://www.datajoint.org/) database. In order to run the code to run simulations on the L5PC, you will have to set up such a database. Note that this step is not required for the results shown in Fig. 1-5 and is also not required to run the notebook which generates Fig. 6 via loading the trained neural networks from disk. If you still want to set up the database, you have to set up a database server:
+We save every parameter set and the corresponding simulation result of the L5PC in a [datajoint](https://www.datajoint.org/) database. In order to execute the code to obtain simulated training data for the L5PC, you will have to set up such a database. Note that this step is not required for the results shown in Fig. 1-5 and is also not required to run the notebook which generates Fig. 6 via loading the trained neural networks from disk. If you still want to set up the database, you have to set up a database server:
 ```
 https://tutorials.datajoint.org/setting-up/get-database.html
 https://tutorials.datajoint.org/setting-up/local-database.html
