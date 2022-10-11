@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+paper/fig6/notebooks/sbi-logs/**
 
 # C extensions
 *.so
