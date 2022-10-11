@@ -12,7 +12,7 @@ conda env create --file environment_vm.yml
 conda activate tsnpe_neurips
 ```
 
-Then, each subfolder is to be installed separately:
+Then, each subfolder is to be installed separately. Note that, in the second line, you will get an error saying that `sbibm 1.0.7 requires sbi==0.17.2, but you have sbi 0.18.0 which is incompatible`. You can savely ignore this error.
 ```
 cd benchmark; pip install -e .; cd ..
 cd sbi; pip install -e .; cd ..
