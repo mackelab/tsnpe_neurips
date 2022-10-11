@@ -15,12 +15,14 @@ cd paper; pip install -e .; cd ..
 ```
 
 ### Citation
+```
 @article{deistler2022truncated,
   title = {Truncated proposals for scalable and hassle-free simulation-based inference},
   author = {Deistler, Michael and Goncalves, Pedro J and Macke, Jakob H},
   publisher = {arXiv},
   year = {2022},
 }
+```
 
 ### Contact
 If you have questions, please reach out to `michael.deistler@uni-tuebingen.de`.
