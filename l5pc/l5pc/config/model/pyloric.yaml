@@ -1,0 +1,5 @@
+name: "pyloric"
+num_params: 31
+prior: [[],[]]
+noise: 0.0
+nan_replacement_stds: 3.0

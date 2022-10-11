@@ -1,0 +1,6 @@
+name: "l5pc"
+num_params: 20
+prior: [[],[]]
+protocols: ["Step1", "Step2", "Step3", "bAP"]
+noise: 0.0
+nan_replacement_stds: 3.0

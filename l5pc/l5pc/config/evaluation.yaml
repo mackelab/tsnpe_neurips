@@ -1,0 +1,20 @@
+defaults:
+  - _self_
+  - model: l5pc
+
+id: null
+seed: 0
+num_predictives: 100
+posterior: null
+cores: 1
+num_samples_to_estimate_support: 100000
+allowed_false_negatives: 0.001
+use_constrained_prior: False
+constrained_prior_quanitle: 0.0
+
+hydra:
+  run:
+    dir: ../results/${id}/evaluation/${now:%Y_%m_%d}__${now:%H_%M_%S}__${posterior}
+  sweep:
+    dir: ../results/${id}/evaluation/${now:%Y_%m_%d}__${now:%H_%M_%S}__multirun
+    subdir: ${hydra.job.num}__${posterior}

@@ -1,0 +1,7 @@
+defaults:
+  - submitit_slurm
+
+timeout_min: 120
+mem_gb: 50
+cpus_per_task: 4
+partition: cpu-short

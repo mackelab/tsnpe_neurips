@@ -1,0 +1,113 @@
+
+./CaDynamics_E2.c: ../mechanisms/CaDynamics_E2.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) CaDynamics_E2.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./CaDynamics_E2.o: ./CaDynamics_E2.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./Ca_HVA.c: ../mechanisms/Ca_HVA.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) Ca_HVA.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./Ca_HVA.o: ./Ca_HVA.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./Ca_LVAst.c: ../mechanisms/Ca_LVAst.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) Ca_LVAst.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./Ca_LVAst.o: ./Ca_LVAst.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./Ih.c: ../mechanisms/Ih.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) Ih.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./Ih.o: ./Ih.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./Im.c: ../mechanisms/Im.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) Im.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./Im.o: ./Im.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./K_Pst.c: ../mechanisms/K_Pst.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) K_Pst.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./K_Pst.o: ./K_Pst.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./K_Tst.c: ../mechanisms/K_Tst.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) K_Tst.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./K_Tst.o: ./K_Tst.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./Nap_Et2.c: ../mechanisms/Nap_Et2.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) Nap_Et2.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./Nap_Et2.o: ./Nap_Et2.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./NaTa_t.c: ../mechanisms/NaTa_t.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) NaTa_t.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./NaTa_t.o: ./NaTa_t.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./NaTs2_t.c: ../mechanisms/NaTs2_t.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) NaTs2_t.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./NaTs2_t.o: ./NaTs2_t.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./ProbAMPANMDA_EMS.c: ../mechanisms/ProbAMPANMDA_EMS.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) ProbAMPANMDA_EMS.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./ProbAMPANMDA_EMS.o: ./ProbAMPANMDA_EMS.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./ProbGABAAB_EMS.c: ../mechanisms/ProbGABAAB_EMS.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) ProbGABAAB_EMS.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./ProbGABAAB_EMS.o: ./ProbGABAAB_EMS.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./SK_E2.c: ../mechanisms/SK_E2.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) SK_E2.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./SK_E2.o: ./SK_E2.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+
+./SKv3_1.c: ../mechanisms/SKv3_1.mod
+	@printf " -> $(C_GREEN)NMODL$(C_RESET) $<\\n"
+	(cd "../mechanisms"; MODLUNIT=$(NRNUNITS) $(NOCMODL) SKv3_1.mod -o "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/l5pc/model/x86_64")
+
+./SKv3_1.o: ./SKv3_1.c
+	@printf " -> $(C_GREEN)Compiling$(C_RESET) $<\\n"
+	$(COMPILE) -I"../mechanisms" $(INCLUDES) -fPIC -c $< -o $@
+

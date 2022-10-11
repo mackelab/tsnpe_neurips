@@ -1,0 +1,5 @@
+name: "snpe"
+dataset: null
+previous_inference: null
+sigmoid_theta: True
+atomic_loss: False

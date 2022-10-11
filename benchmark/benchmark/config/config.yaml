@@ -1,0 +1,18 @@
+# Whether to compute metrics after run or not
+compute_metrics: true
+
+# Hydra's overrides are used to change to different tasks and algorithms
+defaults:
+  - algorithm: tsnpe
+  - task: gaussian_linear
+  - _self_
+
+# Seed
+seed: null
+
+hydra:
+  run:
+    dir: ../results/${now:%Y_%m_%d}/${now:%H_%M_%S}/0
+  sweep:
+    dir: ../results/${now:%Y_%m_%d}/${now:%H_%M_%S}_m
+    subdir: ${hydra.job.num}

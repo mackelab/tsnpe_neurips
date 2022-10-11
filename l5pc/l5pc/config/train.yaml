@@ -1,0 +1,31 @@
+defaults:
+  - algorithm: snpe
+  - model: l5pc
+  - _self_
+
+id: null
+seed_train: 0
+previous_inference: null
+load_nn_from_prev_inference: True
+nan_fraction_threshold_to_exclude: -0.01
+max_num_epochs: 10000
+training_batch_size: 500
+stop_after_epochs: 20
+num_train: null
+num_initial: 100000
+density_estimator: "nsf"
+observation_noise: 0.01
+observation_noise_type: "data"
+ensemble_size: 10
+choose_features: "valid"
+replace_nan_values: True
+temper_xo: False
+data_path: null
+simulation_loaded_from_id: null
+parallel_training: True
+
+hydra:
+  run:
+    dir: ../results/${id}/inference/${now:%Y_%m_%d}__${now:%H_%M_%S}_${algorithm.name}
+  sweep:
+    dir: ../results/${id}/inference/${now:%Y_%m_%d}__${now:%H_%M_%S}_${algorithm.name}_m

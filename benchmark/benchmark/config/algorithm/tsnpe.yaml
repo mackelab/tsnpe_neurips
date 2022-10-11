@@ -1,0 +1,17 @@
+name: "tsnpe"
+params:
+  num_rounds: 10
+  neural_net: nsf
+  hidden_features: 50
+  simulation_batch_size: 1000
+  training_batch_size: 10000
+  z_score_x: "independent"
+  z_score_theta: "independent"
+  num_samples_to_estimate_support: 100000
+  allowed_false_negatives: 0.0001
+  use_constrained_prior: false
+  constrained_prior_quanitle: 0.0
+  max_num_epochs: 100000
+  proposal_sampling: "rejection"
+  sir_oversample: 1024
+  atomic_loss: false

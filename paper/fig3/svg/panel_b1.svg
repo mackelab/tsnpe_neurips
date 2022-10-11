@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="86.472pt" height="86.472pt" viewBox="0 0 86.472 86.472" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2022-04-25T17:06:35.130229</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.5.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 86.472 
+L 86.472 86.472 
+L 86.472 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 7.2 79.272 
+L 79.272 79.272 
+L 79.272 7.2 
+L 7.2 7.2 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p99daf2185b)">
+    <image xlink:href="data:image/png;base64,
+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" id="image6002f142d2" transform="scale(1 -1)translate(0 -72.24)" x="7.2" y="-7.032" width="72.24" height="72.24"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p99daf2185b">
+   <rect x="7.2" y="7.2" width="72.072" height="72.072"/>
+  </clipPath>
+ </defs>
+</svg>

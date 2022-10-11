@@ -1,0 +1,26 @@
+defaults:
+  - model: l5pc
+  - _self_
+
+id: null
+proposal: null
+seed_prior: null
+cores: 1
+sims: 10
+sims_until_save: 1_000
+sims_per_worker: 1
+thr_proposal: True
+save_sims: True
+num_samples_to_estimate_support: 100000
+allowed_false_negatives: 0.001
+use_constrained_prior: False
+constrained_prior_quanitle: 0.0
+sampling_method: "rejection"
+increase_dj_ind_by_1000: False
+
+hydra:
+  run:
+    dir: ../results/${id}/simulations/${now:%Y_%m_%d}__${now:%H_%M_%S}_${model.name}/0
+  sweep:
+    dir: ../results/${id}/simulations/${now:%Y_%m_%d}__${now:%H_%M_%S}_${model.name}_m
+    subdir: ${hydra.job.num}
