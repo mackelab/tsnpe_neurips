@@ -27,7 +27,7 @@ cd pyloric
 pip install -e .
 ```
 
-Finally, you have to set up the simulator for the layer 5 pyramidal cell (Fig. 6). This simulator is written in [`Neuron`](). In order to compile the model, you have to:
+Finally, you have to set up the simulator for the layer 5 pyramidal cell (Fig. 6). This simulator is written in [`Neuron`](https://www.neuron.yale.edu/neuron/). In order to compile the model, you have to:
 ```
 cd l5pc/l5pc/model/x86_64
 rm *.o; rm *.c; cd ..
