@@ -4,7 +4,7 @@ from itertools import chain
 from copy import deepcopy
 import numpy as np
 
-from l5pc.model import L5PC_20D_theta, L5PC_20D_x
+from l5pc.model.table_definitions import L5PC_20D_x
 from l5pc.model.utils import return_names, return_x_names
 from torch.distributions import MultivariateNormal
 from torch import zeros, eye, tensor, float32, as_tensor, Tensor

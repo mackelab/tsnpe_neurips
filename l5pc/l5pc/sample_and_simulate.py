@@ -13,12 +13,8 @@ import pandas as pd
 
 # These files live in utils because I otherwise had problems with SLURM and
 # multiprocessing. See this error: https://www.pythonanywhere.com/forums/topic/27818/
-from l5pc.utils.simulation_utils import (
-    assemble_prior,
-    assemble_simulator,
-    assemble_db,
-    write_to_dj,
-)
+from l5pc.utils.simulation_utils import assemble_prior, assemble_simulator
+from l5pc.utils.simulation_utils_dj import assemble_db, write_to_dj
 from l5pc.utils.common_utils import load_posterior
 from l5pc.model.utils import return_gt, return_names, return_xo
 from sbi.utils import BoxUniform

@@ -17,10 +17,9 @@ from joblib import Parallel, delayed
 from l5pc.utils.simulation_utils import (
     assemble_prior,
     assemble_simulator,
-    assemble_pyloric,
-    assemble_db,
-    write_to_dj,
+    assemble_pyloric
 )
+from l5pc.utils.simulation_utils_dj import assemble_db, write_to_dj
 from l5pc.model.utils import return_gt, return_names, return_xo
 from sbi.utils import BoxUniform
 from sbi.utils.support_posterior import PosteriorSupport

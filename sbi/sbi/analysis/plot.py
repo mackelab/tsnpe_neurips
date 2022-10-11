@@ -48,7 +48,7 @@ def _update(d, u):
     return d
 
 
-def _format_axis(ax, xhide=True, yhide=True, xlabel="", ylabel="", tickformatter=None):
+def _format_axis(ax, xhide=True, yhide=True, xlabel="", ylabel="", tickformatter=None, labelpad=5):
     for loc in ["right", "top", "left", "bottom"]:
         ax.spines[loc].set_visible(False)
     if xhide:
@@ -60,7 +60,7 @@ def _format_axis(ax, xhide=True, yhide=True, xlabel="", ylabel="", tickformatter
         ax.yaxis.set_ticks_position("none")
         ax.yaxis.set_tick_params(labelleft=False)
     if not xhide:
-        ax.set_xlabel(xlabel)
+        ax.set_xlabel(xlabel, labelpad=labelpad)
         ax.xaxis.set_ticks_position("bottom")
         ax.xaxis.set_tick_params(labelbottom=True)
         if tickformatter is not None:
@@ -841,6 +841,7 @@ def _arrange_plots(
                         xlabel=labels_dim[col],
                         yhide=True,
                         tickformatter=opts["tickformatter"],
+                        labelpad=opts["labelpad"],
                     )
                 else:
                     _format_axis(ax, xhide=True, yhide=True)
