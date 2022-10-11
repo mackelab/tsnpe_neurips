@@ -12,7 +12,7 @@ conda env create --file environment_vm.yml
 conda activate tsnpe_neurips
 ```
 
-Each subfolder is to be installed separately:
+Then, each subfolder is to be installed separately:
 ```
 cd benchmark; pip install -e .; cd ..
 cd sbi; pip install -e .; cd ..
