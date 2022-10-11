@@ -6,6 +6,12 @@ This repo contains four main folders. Each folder contains an individual `README
 
 ### Installation
 
+First, create the conda environment and activate it:
+```
+conda env create --file environment_vm.yml
+conda activate tsnpe_neurips
+```
+
 Each subfolder is to be installed separately:
 ```
 cd benchmark; pip install -e .; cd ..
