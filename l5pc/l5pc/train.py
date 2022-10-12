@@ -11,7 +11,7 @@ import pandas as pd
 import pickle
 import dill
 from l5pc.utils.common_utils import load_prior
-from l5pc.model import L5PC_20D_theta, L5PC_20D_x
+from l5pc.model.table_definitions import L5PC_20D_theta, L5PC_20D_x
 from l5pc.model.utils import return_names, return_x_names, return_xo
 from torch import zeros, eye, tensor, float32, as_tensor, Tensor
 from l5pc.utils.model_utils import (
