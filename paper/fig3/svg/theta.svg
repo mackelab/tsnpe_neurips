@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16.205629pt"
+   height="20.46249pt"
+   viewBox="0 0 16.20563 20.462491"
+   version="1.1"
+   id="svg740"
+   sodipodi:docname="theta.svg"
+   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview742"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="pt"
+     showgrid="false"
+     width="16.20563pt"
+     inkscape:zoom="13.39899"
+     inkscape:cx="0.78364116"
+     inkscape:cy="30.11421"
+     inkscape:window-width="2488"
+     inkscape:window-height="1376"
+     inkscape:window-x="72"
+     inkscape:window-y="393"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg740" />
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:date>2022-04-20T09:42:30.412146</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Matplotlib v3.5.1, https://matplotlib.org/</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <style
+       type="text/css"
+       id="style4">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  </defs>
+  <defs
+     id="defs738">
+    <clipPath
+       id="pf9042af02e">
+      <rect
+         x="19.290001"
+         y="7.1999998"
+         width="167.39999"
+         height="166.32001"
+         id="rect735" />
+    </clipPath>
+  </defs>
+  <image
+     width="15.774475"
+     height="19.546635"
+     preserveAspectRatio="none"
+     xlink:href="data:image/png;base64,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
+"
+     id="image2256"
+     x="0.3002246"
+     y="0.63346326" />
+</svg>

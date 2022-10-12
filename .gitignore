@@ -4,6 +4,10 @@ __pycache__/
 *$py.class
 paper/fig6/notebooks/sbi-logs/**
 paper/fig5/notebooks/sbi-logs/**
+paper/fig1/notebooks/sbi-logs/**
+**.svg
+**.pdf
+
 # C extensions
 *.so
 
