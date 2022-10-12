@@ -42,13 +42,19 @@ rm *.o; rm *.c; cd ..
 nrnivmodl mechanisms
 ```
 
-We save every parameter set and the corresponding simulation result of the L5PC in a [datajoint](https://www.datajoint.org/) database. In order to execute the code to obtain simulated training data for the L5PC, you will have to set up such a database. Note that this step is not required for the results shown in Fig. 1-5 and is also not required to run the notebook which generates Fig. 6 via loading the trained neural networks from disk. If you still want to set up the database, you have to set up a database server:
+We save every parameter set and the corresponding simulation result of the L5PC in a [datajoint](https://www.datajoint.org/) database. In order to execute the code to obtain simulated training data for the L5PC, you will have to set up such a database. Note that this step is not required for the results shown in Fig. 1-5 and is also not required to run the notebook which generates Fig. 6 via loading the trained neural networks from disk. If you still want to set up the database, you have to set up a database server. This is described in detail [here](https://github.com/datajoint/mysql-docker). Here is an outline of the steps:
+1) [Install docker](https://docs.docker.com/engine/install/ubuntu/)
+2) [Install docker compose](https://docs.docker.com/compose/install/linux/)
+
+Then, set up the database:
 ```
-https://tutorials.datajoint.org/setting-up/get-database.html
-https://tutorials.datajoint.org/setting-up/local-database.html
-https://datajointneuro.io/
+mkdir mysql-docker
+cd mysql-docker
+wget https://raw.githubusercontent.com/datajoint/mysql-docker/master/docker-compose.yaml
+docker-compose up -d
 ```
-You can now either generate the simulations used to train TSNPE yourself, or you download the database of simulated data that we used [link will be made available soon].
+
+You can now either generate the simulations used to train TSNPE yourself, or you download the database of simulated data that we used [link will be made available soon]. Alternatively, we also provide the 30k simulations we used in each round as `torch` datafiles [link will be made available soon](). In order to use these data in the `l5pc/l5pc/train.py` function, you will have to modify the dataloader.
 
 ### Citation
 ```
