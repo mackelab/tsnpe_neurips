@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="15.7cm" viewBox="0 0 15.7cm 1.8cm" height="1.8cm">
+  <g>
+    <g transform="translate(-10, 0) scale(1) ">
+      <g transform="translate(0, 0) scale(1) translate(0, 0) scale(1.25) "><metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2022-10-12T12:12:19.846797</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.5.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 58.752  L 126 58.752  L 126 0  L 0 0  z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 7.2 51.552  L 118.8 51.552  L 118.8 7.2  L 7.2 7.2  z " style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="line2d_1">
+    <path d="M 12.272727 49.534929  L 36.263982 49.456163  L 37.077243 49.266349  L 39.313718 47.363567  L 40.330297 46.304784  L 40.73693 46.162658  L 41.14356 46.261635  L 41.753506 46.765676  L 43.380032 48.374403  L 44.193296 48.834773  L 45.209874 49.154126  L 46.633084 49.338498  L 50.089452 49.510393  L 60.255237 49.508398  L 62.49171 49.386638  L 62.898342 49.210511  L 63.101657 48.924051  L 63.304973 47.531616  L 63.508289 9.216  L 63.711604 47.555002  L 63.91492 48.809341  L 64.321553 49.273421  L 64.9315 49.422147  L 66.761342 49.502667  L 76.113865 49.517252  L 79.773548 49.392466  L 80.790126 49.180469  L 82.213336 48.448499  L 83.0266 47.752624  L 84.85644 46.098932  L 85.26307 46.048487  L 85.669703 46.238825  L 86.279651 46.886953  L 87.499543 48.346942  L 88.516122 49.087947  L 89.736018 49.462765  L 92.175806 49.530913  L 113.727273 49.535543  L 113.727273 49.535543  " clip-path="url(#p5368eab4e2)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5368eab4e2">
+   <rect x="7.2" y="7.2" width="111.6" height="44.352"/>
+  </clipPath>
+ </defs>
+</g>
+      <text x="11" y="12.0" font-size="7.7pt" font-family="Arial" font-weight="normal" letter-spacing="0" text-anchor="start" fill="black">APT</text>
+      <text x="11" y="22.0" font-size="7.7pt" font-family="Arial" font-weight="normal" letter-spacing="0" text-anchor="start" fill="black">10 rounds</text>
+    </g>
+  </g>
+</svg>

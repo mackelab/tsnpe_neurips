@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="15.7cm" viewBox="0 0 15.7cm 3.6cm" height="3.6cm">
+  <g>
+    <g transform="translate(5, 5) scale(1) ">
+      <g transform="translate(0, 0) scale(1.25) "><metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2022-05-18T19:31:31.941046</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.5.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 108.87625  L 472.72 108.87625  L 472.72 0  L 0 0  z " style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 19.12 90.36  L 150.414118 90.36  L 150.414118 7.2  L 19.12 7.2  z " style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="text_1">
+     <!-- $\theta$ -->
+     <g transform="translate(82.527059 100.08625)">
+      <text>
+       <tspan style="font: 8px 'Arial'" x="0" y="-0.171875">&#952;</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="text_2">
+     <!-- $\tilde{p}(\theta)$ -->
+     <g transform="translate(13.36 55.9)rotate(-90)">
+      <text>
+       <tspan style="font: 8px 'Arial'" x="0 4.449219 4.674805 7.113281 11.5625" y="-0.84375 -0.84375 -0.046875 -0.84375 -0.84375">p(&#771;&#952;)</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_1">
+    <path d="M 25.087914 86.58  L 48.86399 86.58  L 48.983468 61.380001  L 60.811767 61.380001  L 60.931244 36.180001  L 66.785655 36.180001  L 66.905133 10.98  L 120.55065 10.98  L 120.670128 36.180001  L 132.498427 36.180001  L 132.617904 61.380001  L 138.472315 61.380001  L 138.591793 86.58  L 144.446203 86.58  L 144.446203 86.58  " clip-path="url(#p9e28c36bf0)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 19.12 90.36  L 19.12 7.2  " style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 19.12 90.36  L 150.414118 90.36  " style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 176.672941 90.36  L 307.967059 90.36  L 307.967059 7.2  L 176.672941 7.2  z " style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="text_3">
+     <!-- $\theta$ -->
+     <g transform="translate(240.08 100.08625)">
+      <text>
+       <tspan style="font: 8px 'Arial'" x="0" y="-0.171875">&#952;</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="text_4">
+     <!-- $p(\theta | x)$ -->
+     <g transform="translate(170.912941 58.94)rotate(-90)">
+      <text>
+       <tspan style="font: 8px 'Arial'" x="0 4.449219 7.113281 11.5625 13.640625 17.640625" y="-0.171875">p(&#952;|x)</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_2">
+    <path d="M 182.640856 86.58  L 232.582562 86.476573  L 234.613684 86.244056  L 236.047417 85.860334  L 237.122717 85.353042  L 238.078539 84.66156  L 238.914884 83.802443  L 239.751228 82.636803  L 240.587572 81.09085  L 241.423917 79.087406  L 242.379739 76.141948  L 243.335561 72.40684  L 244.410861 67.188849  L 245.605639 60.135807  L 247.039372 50.186322  L 251.101616 20.832796  L 252.057438 15.93688  L 252.774305 13.271628  L 253.371693 11.802697  L 253.849604 11.152514  L 254.208038 10.98  L 254.566471 11.079925  L 254.924904 11.451217  L 255.402815 12.361061  L 256.000204 14.139109  L 256.717071 17.141162  L 257.553415 21.681075  L 258.748193 29.630211  L 261.137748 47.695057  L 262.929915 60.289047  L 264.24417 67.947705  L 265.31947 73.020313  L 266.39477 77.027134  L 267.350592 79.771004  L 268.306414 81.849664  L 269.262236 83.376969  L 270.218058 84.466073  L 271.173881 85.220192  L 272.249181 85.777216  L 273.443958 86.149719  L 274.997169 86.399852  L 277.386724 86.538651  L 283.241135 86.57943  L 301.999144 86.58  L 301.999144 86.58  " clip-path="url(#p75834f7a74)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 176.672941 90.36  L 176.672941 7.2  " style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 176.672941 90.36  L 307.967059 90.36  " style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_8">
+    <path d="M 334.225882 90.36  L 465.52 90.36  L 465.52 7.2  L 334.225882 7.2  z " style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="text_5">
+     <!-- $\theta$ -->
+     <g transform="translate(397.632941 100.08625)">
+      <text>
+       <tspan style="font: 8px 'Arial'" x="0" y="-0.171875">&#952;</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="text_6">
+     <!-- $p(\theta | x) \cdot \tilde{p}(\theta) \; / \; p(\theta)$ -->
+     <g transform="translate(328.465882 78.62)rotate(-90)">
+      <text>
+       <tspan style="font: 8px 'Arial'" x="0 4.449219 7.113281 11.5625 13.640625 17.640625 25.258307 29.707526 29.933112 32.371588 36.820807 41.336013 45.409812 49.859031 52.523093 56.972312" y="-0.84375 -0.84375 -0.84375 -0.84375 -0.84375 -0.84375 -0.84375 -0.84375 -0.046875 -0.84375 -0.84375 -0.84375 -0.84375 -0.84375 -0.84375 -0.84375">p(&#952;|x)p(&#771;&#952;)/p(&#952;)</tspan>
+       <tspan style="font: 8px 'STIXGeneral'" x="21.6375" y="-0.84375">&#8901;</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_3">
+    <path d="M 340.193797 86.58  L 390.135503 86.476573  L 392.166625 86.244056  L 393.600358 85.860334  L 394.675658 85.353042  L 395.63148 84.66156  L 396.467825 83.802443  L 397.304169 82.636803  L 398.140514 81.09085  L 398.976858 79.087406  L 399.93268 76.141948  L 400.888502 72.40684  L 401.963802 67.188849  L 403.15858 60.135808  L 404.592313 50.186321  L 408.654557 20.832792  L 409.610379 15.936883  L 410.327246 13.271625  L 410.924635 11.802697  L 411.402546 11.152513  L 411.760979 10.98  L 412.119412 11.079928  L 412.477846 11.451218  L 412.955757 12.361064  L 413.553145 14.139112  L 414.270012 17.141164  L 415.106356 21.681077  L 416.301134 29.630211  L 418.690689 47.695059  L 420.482856 60.289047  L 421.797111 67.947705  L 422.872411 73.020312  L 423.947711 77.027134  L 424.903533 79.771004  L 425.859355 81.849664  L 426.815178 83.376969  L 427.771 84.466073  L 428.726822 85.220192  L 429.802122 85.777216  L 430.996899 86.149719  L 432.55011 86.399852  L 434.939666 86.538651  L 440.794076 86.57962  L 459.552086 86.58  L 459.552086 86.58  " clip-path="url(#p59c4ce8a3f)" style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 334.225882 90.36  L 334.225882 7.2  " style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 334.225882 90.36  L 465.52 90.36  " style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9e28c36bf0">
+   <rect x="19.12" y="7.2" width="131.294118" height="83.16"/>
+  </clipPath>
+  <clipPath id="p75834f7a74">
+   <rect x="176.672941" y="7.2" width="131.294118" height="83.16"/>
+  </clipPath>
+  <clipPath id="p59c4ce8a3f">
+   <rect x="334.225882" y="7.2" width="131.294118" height="83.16"/>
+  </clipPath>
+ </defs>
+</g>
+    </g>
+  </g>
+</svg>
