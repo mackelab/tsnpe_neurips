@@ -58,11 +58,13 @@ You can now either generate the simulations used to train TSNPE yourself, or you
 
 ### Citation
 ```
-@article{deistler2022truncated,
-  title = {Truncated proposals for scalable and hassle-free simulation-based inference},
-  author = {Deistler, Michael and Goncalves, Pedro J and Macke, Jakob H},
-  publisher = {arXiv},
-  year = {2022},
+@inproceedings{
+  deistler2022truncated,
+  title={Truncated proposals for scalable and hassle-free simulation-based inference},
+  author={Michael Deistler and Pedro J. Goncalves and Jakob H. Macke},
+  booktitle={Thirty-Sixth Conference on Neural Information Processing Systems},
+  year={2022},
+  url={https://openreview.net/forum?id=QW98XBAqNRa}
 }
 ```
 
