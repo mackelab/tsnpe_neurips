@@ -27,7 +27,7 @@ python multiround_pyloric.py  cores=8 sims_per_round=30000 num_initial=30000 num
 
 For producing the results of the L5PC, run (`2022_04_27__19_06_37_snpe`, `2022_05_05__07_47_34_snpe_m/0`, `2022_05_05__21_28_21_snpe`, `2022_05_06__13_50_43_snpe`, `2022_05_07__08_17_53_snpe`, `2022_05_08__08_59_11_snpe`):
 ```
-python train_from_disk.py id=l20_2 num_initial=30000 load_nn_from_prev_inference=False ensemble_size=10
+python train_from_disk.py id=l20_7 num_initial=30000 load_nn_from_prev_inference=False ensemble_size=10
 python train_from_disk.py id=l20_7 num_initial=30000 previous_inference=2022_04_27__19_06_37_snpe
 python train_from_disk.py id=l20_7 num_initial=30000 previous_inference=2022_05_05__07_47_34_snpe_m/0
 python train_from_disk.py id=l20_7 num_initial=30000 previous_inference=2022_05_05__21_28_21_snpe
