@@ -54,7 +54,7 @@ wget https://raw.githubusercontent.com/datajoint/mysql-docker/master/docker-comp
 docker-compose up -d
 ```
 
-You can now either generate the simulations used to train TSNPE yourself, or you download the database of simulated data that we used [link will be made available soon]. Alternatively, we also provide the 30k simulations we used in each round as `torch` datafiles [link will be made available soon](). In order to use these data in the `l5pc/l5pc/train.py` function, you will have to modify the dataloader.
+You can now either generate the simulations used to train TSNPE yourself, or you download the database of simulated data that we used [link will be made available soon]. Alternatively, we also provide the 30k simulations we used in each round as `pickle` datafiles [here](https://github.com/mackelab/tsnpe_neurips/tree/main/l5pc/results/simulations_pickle). In order to use these data in the `l5pc/l5pc/train.py` function, you will have to modify the dataloader.
 
 ### Citation
 ```
