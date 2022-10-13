@@ -39,3 +39,17 @@ Note that this procedure will simply load the simulated data [from disk](https:/
 ```
 python sample_and_simulate.py id=l20_7 cores=48 sims=32000 proposal=2022_04_27__19_06_37_snpe
 ```
+
+We save every parameter set and the corresponding simulation result of the L5PC in a [datajoint](https://www.datajoint.org/) database. In order to execute the code to run the `l5pc/l5pc/sample_and_simulate.py` script to generate simulated training data for the L5PC, you will have to set up such a database. Alternatively, you can simply use the data we simulated for our run as `pickle` files [here](https://github.com/mackelab/tsnpe_neurips/tree/main/l5pc/results/simulations_pickle). Note that neither of these steps is required for the results shown in Fig. 1-5 and is also not required to run the notebook which generates Fig. 6 via loading the trained neural networks from disk. 
+
+If you still want to set up the database, you have to set up a database server. This is described in detail [here](https://github.com/datajoint/mysql-docker). Here is an outline of the steps:
+1) [Install docker](https://docs.docker.com/engine/install/ubuntu/)
+2) [Install docker compose](https://docs.docker.com/compose/install/linux/)
+
+Then, set up the database:
+```
+mkdir mysql-docker
+cd mysql-docker
+wget https://raw.githubusercontent.com/datajoint/mysql-docker/master/docker-compose.yaml
+docker-compose up -d
+```
