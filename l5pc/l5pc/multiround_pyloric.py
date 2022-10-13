@@ -2,8 +2,6 @@ import logging
 from multiprocessing import Pool
 import pickle
 import time
-import os
-from tokenize import Name
 import torch
 from omegaconf import DictConfig
 import hydra
@@ -14,14 +12,7 @@ from joblib import Parallel, delayed
 
 # These files live in utils because I otherwise had problems with SLURM and
 # multiprocessing. See this error: https://www.pythonanywhere.com/forums/topic/27818/
-from l5pc.utils.simulation_utils import (
-    assemble_prior,
-    assemble_simulator,
-    assemble_pyloric
-)
-from l5pc.utils.simulation_utils_dj import assemble_db, write_to_dj
-from l5pc.model.utils import return_gt, return_names, return_xo
-from sbi.utils import BoxUniform
+from l5pc.utils.simulation_utils import assemble_pyloric
 from sbi.utils.support_posterior import PosteriorSupport
 from os.path import join
 from torch import tensor, as_tensor, float32
