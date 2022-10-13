@@ -26,6 +26,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from l5pc.utils.evaluation_utils import show_traces_pyloric
 from sbi.analysis import pairplot
+from hydra.utils import get_original_cwd
 
 from sbi.utils.user_input_checks import process_prior
 
@@ -159,7 +160,7 @@ def train(cfg, round_):
     log.info(f"Round: {round_}")
 
     if round_ == 1:
-        path = "/mnt/qb/macke/mdeistler57/tsnpe_collection/l5pc/results/p31_4/prior_predictives_energy_paper"
+        path = join(get_original_cwd(), "../results/p31_4/prior_predictives_energy_paper")
         theta = pd.read_pickle(join(path, "all_circuit_parameters.pkl"))
         x = pd.read_pickle(join(path, "all_simulation_outputs.pkl"))
         log.info(f"Pre-loaded {len(x)} simulations from file.")
