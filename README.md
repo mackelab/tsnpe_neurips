@@ -46,7 +46,7 @@ nrnivmodl mechanisms
 ```
 
 ### Large file storage
-This repo is significantly smaller than the [development repos](https://github.com/tsnpe). However, it still contains neural networks that are used to visualize results and a few datasets that are plotted. The overall filesize of this repo is 8.7 GB. Large files are stored with [Git LFS](https://git-lfs.github.com/)
+This repo is significantly smaller than the [development repos](https://github.com/tsnpe). However, it still contains neural networks that are used to visualize results and a few datasets that are plotted. The overall filesize of this repo is 8.7 GB. Large files are stored with [Git LFS](https://git-lfs.github.com/).
 
 
 ### Citation
