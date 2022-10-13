@@ -1,0 +1,2 @@
+l5pc/results/** filter=lfs diff=lfs merge=lfs -text
+*_lfs.* filter=lfs diff=lfs merge=lfs -text
