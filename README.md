@@ -11,7 +11,7 @@ This repo contains four main folders. Each folder contains an individual `README
 
 
 ### Completeness
-This repository contains code that can be run to generate all results. In addition, it contains some files that are loaded in the notebooks in order to generate the figures (these files are also generated along the way when running the code). However, in order to maintain a reasonable file size of this repo, many intermediate results (which are not shown in the paper, e.g. trained neural networks after every round) are not stored in this repository. In addition, this repository does not include the full git history of the project. In order to recover these things, we point the reader to the [development repository of this project](https://github.com/tsnpe).
+This repository contains code that can be run to generate all results. In addition, it contains some files that are loaded in the notebooks in order to generate the figures (these files are also generated along the way when running the code). However, in order to maintain a reasonable file size of this repo, many intermediate results (which are not shown in the paper, e.g. trained neural networks after every round) are not stored in this repository. In addition, this repository does not include the full git history of the project. In order to recover these things, we point the reader to the [development repository of this project](https://github.com/mackelab/tsnpe_neurips_dev).
 
 
 ### Installation
@@ -46,7 +46,7 @@ nrnivmodl mechanisms
 ```
 
 ### Large file storage
-This repo is significantly smaller than the [development repos](https://github.com/tsnpe). However, it still contains neural networks that are used to visualize results and a few datasets that are plotted. The overall filesize of this repo is 8.7 GB. Large files are stored with [Git LFS](https://git-lfs.github.com/).
+This repo is significantly smaller than the [development repo](https://github.com/tsnpe_neurips_dev). However, it still contains neural networks that are used to visualize results and a few datasets that are plotted. The overall filesize of this repo is 8.7 GB. Large files are stored with [Git LFS](https://git-lfs.github.com/).
 
 
 ### Citation
