@@ -1,6 +1,6 @@
 # Neuroscience examples (L5PC and pyloric network)
 
-Below are the commands we ran to produce the results on the neuroscience examples. Note: the identifiers in brackets, e.g. `2022_05_17__09_36_25__multirun` indicate the location of the exact log file of that run. This allows to recover the full configurations by inspecting the [development github account of this project](https://github.com/tsnpe?tab=repositories).
+Below are the commands we ran to produce the results on the neuroscience examples. Note: the identifiers in brackets, e.g. `2022_05_17__09_36_25__multirun` indicate the location of the exact log file of that run. This allows to recover the full configurations by inspecting the [development github account of this project](https://github.com/mackelab/tsnpe_neurips_dev/tree/main/l5pc/results).
 
 ### Pyloric network
 
