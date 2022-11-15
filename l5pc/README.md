@@ -34,9 +34,9 @@ python train_from_disk.py id=l20_7 num_initial=30000 previous_inference=2022_05_
 python train_from_disk.py id=l20_7 num_initial=30000 previous_inference=2022_05_06__13_50_43_snpe
 python train_from_disk.py id=l20_7 num_initial=30000 previous_inference=2022_05_07__08_17_53_snpe
 ```
-Please replace the `previous_inference` attribute with the location of the previous run you made (it depends on date and time and thus will not match the above date/time). Alternatively, download all saved networks [here](https://github.com/tsnpe/l5pc/tree/main/results).
+Please replace the `previous_inference` attribute with the location of the previous run you made (it depends on date and time and thus will not match the above date/time). Alternatively, download all saved networks [here](https://github.com/mackelab/tsnpe_neurips_dev/tree/main/l5pc/results).
 
-Note that this procedure will simply load the simulated data [from disk](https://github.com/mackelab/tsnpe_neurips/tree/main/l5pc/results/simulations_pickle). If you want indeed want to run the simulations yourself, you have to run (before every round of training) the script `sample_and_simulate.py` with configurations specified [here](https://github.com/tsnpe/l5pc/tree/main/results/l20_7/simulations), e.g.
+Note that this procedure will simply load the simulated data [from disk](https://github.com/mackelab/tsnpe_neurips/tree/main/l5pc/results/simulations_pickle). If you want indeed want to run the simulations yourself, you have to run (before every round of training) the script `sample_and_simulate.py` with configurations specified [here](https://github.com/mackelab/tsnpe_neurips_dev/tree/main/l5pc/results/l20_7/simulations), e.g.
 ```
 python sample_and_simulate.py id=l20_7 cores=48 sims=32000 proposal=2022_04_27__19_06_37_snpe
 ```
