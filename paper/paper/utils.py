@@ -94,7 +94,8 @@ def fig_diagnostic(
     ylabel: bool = False,
     legend: bool = False,
     title: bool = False,
-    task_name: str = ""
+    task_name: str = "",
+    wspace=0.8,
 ):  
     acceptance_rate = extract_diagnostic(df.query("algorithm == 'tsnpe'"), "acceptance rate")
     for i in range(3):
@@ -141,7 +142,7 @@ def fig_diagnostic(
         ax[1].set_ylabel("gt in support")
     if legend:
         ax[1].legend([r"10$^3$", r"10$^4$", r"10$^5$"], ncol=3, loc="upper right", bbox_to_anchor=[1.1, 1.65, 0.0, 0.0], handlelength=0.8, handletextpad=0.4, columnspacing=1.0)
-    plt.subplots_adjust(wspace=0.8)
+    plt.subplots_adjust(wspace=wspace)
     return fig
 
 def extract_diagnostic(df, key="gt in support"):
