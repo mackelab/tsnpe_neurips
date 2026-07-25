@@ -1,0 +1,3 @@
+[submodule "l5pc/results"]
+	path = l5pc/results
+	url = https://github.com/mackelab/tsnpe_neurips_data.git

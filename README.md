@@ -64,3 +64,16 @@ This repo is significantly smaller than the [development repo](https://github.co
 
 ### Contact
 If you have questions, please reach out to `michael.deistler@uni-tuebingen.de`.
+
+## Results data (submodule)
+
+The large inference results under `l5pc/results/` (~3.1 GB) live in a separate
+repo, [`mackelab/tsnpe_neurips_data`](https://github.com/mackelab/tsnpe_neurips_data),
+mounted here as a git submodule. A plain `git clone` no longer downloads them
+(this keeps Git LFS bandwidth low). To fetch the data:
+
+```bash
+git submodule update --init l5pc/results          # in an existing checkout
+# or, when cloning fresh:
+git clone --recurse-submodules https://github.com/mackelab/tsnpe_neurips.git
+```
