@@ -8,6 +8,10 @@ paper/fig1/notebooks/sbi-logs/**
 **.svg
 **.pdf
 
+# Large result files now hosted on the Hugging Face dataset
+# https://huggingface.co/datasets/mackelab/tsnpe_neurips
+l5pc/results/**
+
 # C extensions
 *.so
 
