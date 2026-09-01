@@ -46,7 +46,12 @@ nrnivmodl mechanisms
 ```
 
 ### Large file storage
-This repo is significantly smaller than the [development repo](https://github.com/mackelab/tsnpe_neurips_dev). However, it still contains neural networks that are used to visualize results and a few datasets that are plotted. The overall filesize of this repo is 8.7 GB. Large files are stored with [Git LFS](https://git-lfs.github.com/).
+This repo is significantly smaller than the [development repo](https://github.com/mackelab/tsnpe_neurips_dev). It still requires neural networks that are used to visualize results and a few datasets that are plotted, but these are no longer stored in this git repository. Instead, they are hosted on the Hugging Face dataset [`mackelab/tsnpe_neurips`](https://huggingface.co/datasets/mackelab/tsnpe_neurips).
+
+To reproduce the contents of `l5pc/results/` locally, install the `hf` CLI (`pip install -U "huggingface_hub[cli]"`) and run:
+```
+hf download mackelab/tsnpe_neurips --repo-type dataset --local-dir l5pc/results
+```
 
 
 ### Citation
@@ -64,16 +69,3 @@ This repo is significantly smaller than the [development repo](https://github.co
 
 ### Contact
 If you have questions, please reach out to `michael.deistler@uni-tuebingen.de`.
-
-## Results data (submodule)
-
-The large inference results under `l5pc/results/` (~3.1 GB) live in a separate
-repo, [`mackelab/tsnpe_neurips_data`](https://github.com/mackelab/tsnpe_neurips_data),
-mounted here as a git submodule. A plain `git clone` no longer downloads them
-(this keeps Git LFS bandwidth low). To fetch the data:
-
-```bash
-git submodule update --init l5pc/results          # in an existing checkout
-# or, when cloning fresh:
-git clone --recurse-submodules https://github.com/mackelab/tsnpe_neurips.git
-```
